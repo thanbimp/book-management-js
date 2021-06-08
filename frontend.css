@@ -1,0 +1,19 @@
+.form {
+    margin: 0 auto;
+    width: 210px;
+}
+
+.form label{
+    text-align: center;
+    float: center;
+}
+
+.form input{
+    text-align: center;
+    float: center;
+}
+
+textarea {
+    width: 40vw;
+    height: 30vw;
+  }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<link rel="stylesheet" href="frontend.css">
+<title>Book database system</title>
+<link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  background-color: white;
+  text-align: center;
+  color: Black;
+  font-family: 'Roboto', sans-serif;
+}
+.Welcomediv {
+    background: linear-gradient(to right, #0033cc 0%, #66ffff 100%);
+}
+</style>
+<script src="frontend.js"></script>
+</head>
+<div class="Welcomediv">
+  <h1 id="title">Welcome!</h1>
+  <p id="subtext">Please make a selection from below!</p>
+</div>
+<body>
+  <button id="newbookbutton" onclick ="NewBookMenu()">Add new book</button>
+  <button id="searchbutton" onclick="BookSearchMenu()">Search all books</button>
+</body>
+</html>
